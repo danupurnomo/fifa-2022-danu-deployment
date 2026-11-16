@@ -78,7 +78,7 @@ def run():
         
         # Predict using Linear Regression
         y_pred_inf = model_lin_reg.predict(data_inf_final)
-        st.write('## Rating : ', str(int(y_pred_inf)))
+        st.write('## Rating : ', str(int(y_pred_inf[0])))
 
 
 if __name__ == '__main__':
